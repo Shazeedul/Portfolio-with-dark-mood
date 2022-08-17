@@ -360,6 +360,13 @@ img {
   padding: 1rem;
   border-radius: .5rem;
   font-weight: var(--font-medium);
+  border-style: none;
+  
+}
+
+.button:focus{
+  outline:none;
+  border-style: none;
 }
 
 .button:hover{
@@ -661,7 +668,7 @@ img {
 
 .services__modal{
   position: fixed;
-  top: o;
+  top: 0;
   left: 0;
   right: 0;
   bottom: 0;
@@ -704,6 +711,12 @@ img {
   font-size: 1.5rem;
   color: var(--first-color);
   cursor: pointer;
+  border-style: none;
+}
+
+.services__modal-close:focus{
+  outline:none;
+  border-style: none;
 }
 
 .services__modal-icon{
